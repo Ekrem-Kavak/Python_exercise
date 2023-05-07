@@ -36,7 +36,10 @@ elif operation == "4":
     number_2 = float(input("Please, second a first number: "))
     div = number_1 / number_2
     print(f"Result of the operation: {div}")
-    
+
+elif (operation != operation.isdigit()):
+    print("Please, do not enter a value other than a numeric value")
+
 elif operation == "Q" or operation == "q":
     print("exit")
 
