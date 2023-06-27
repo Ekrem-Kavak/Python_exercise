@@ -25,3 +25,4 @@ while heart > 0:
    
 print(f"True number is {number}")
 
+print("finish")
